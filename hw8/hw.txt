@@ -1,0 +1,18 @@
+1. The result is still secure because the bytes are encoded and they do not
+   have the public-private key pair needed to decrypt the information. If 
+   the other teams had also tapped the keyboards after completing all the client
+   -server setup, they would only be able to record the password to the private key,
+   which is there to protect the private key should someone malicious gain access
+   to the private key. So without the actual key itself, the data being sent over 
+   the network still cannot be decrypted. However, if I were also to boot off the 
+   USB and someone gained physical control over it, they would have access to the 
+   users' private keys stored in the .ssh folder and be able to encrypt and decrypt 
+   information with the public private key pair. Thus the network would no longer 
+   be safe.
+2. This only verifies that the key was the one that signed the file 
+   it does not guarantee who actually signed the file. This means someone 
+   could intercept in the middle and change the file and sign it with their key
+   as well as changing the public key to theirs. Thus --verify would show a good
+   signature as the decrypted signature and file produce the same message. To fix 
+   this problem there would have to be a third party that is able to verify that the key 
+   in question is my key, then it would be able to show that I signed the file.

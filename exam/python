@@ -1,0 +1,12 @@
+#!/usr/bin/python
+l1=[1,2,3]
+l2=[4,5]
+l3 = l1+l2
+print l3
+dic = {}
+dic['france'] = "paris"
+dic['japan'] = 2
+dic['france'] = "q"
+print dic['france']
+del dic['japan']
+print dic['japan']

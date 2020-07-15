@@ -1,0 +1,11 @@
+#!/bin/sh/python
+import argparse
+parser = argparse.ArgumentParser()
+parser.add_argument("-v", "--verbose","--croc", help = "increase output verbosity", action="store_true")
+parser.add_argument("echo", help="echo the string you use here")
+parser.add_argument("square", help="square the number",type=int)
+args = parser.parse_args()
+print(args.echo)
+print(args.square**2)
+if args.verbose:
+	print("verbosityyyy")

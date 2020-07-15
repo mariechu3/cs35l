@@ -1,0 +1,56 @@
+Members: 
+Grant Roberts 405180937
+Marie Chu 905116878
+
+We first set up our BeagleBones following the steps on Piazza and designated
+one to be the server and the other to be the client. (Server: Grant, Client: Marie)
+
+Server Steps:
+$ssh-keygen to generate a public and private key.
+Created an acccount for the client on the server
+$sudo useradd -d /home/marie -m marie 
+-d (new user created using /home/marie as the user's login directory)
+-m (create user's home directory if it doesn't already exist)
+$sudo passwd marie
+Passphrase? password
+Then he created a .ssh directory for me
+$cd /home/marie
+$sudo mkdir .ssh
+and changed the ownership 
+$sudo chown -R marie .ssh
+-R operate on files recursively
+$sudo chmod 700 .ssh 
+700- owner can read write and execute the file
+Then used ifconfig to find ip address of 10.95.87.79
+
+Client Steps:
+I ssh-ed into my partner's Beaglebone
+$ssh marie@10.95.87.79
+and was prompted for the password : password
+I then tried it with x-forwarding enabled
+$ssh -X marie@10.95.87.79
+password
+$xterm
+and a popup window appeared.
+
+In order to make logins more convenient by not having to type passwords
+I generated a public/private key pair
+$ssh-keygen
+Then I copied my public key to the server for key-based authentication
+$ssh-copy-id -i marie@10.95.87.79
+-i (use only the key(s) contained in identity file)
+ssh-agent (which is a program used to hold private keys used for public key
+authentication)
+$eval `ssh-agent -s` to start ssh-agent
+$ssh-add to add my private key to ssh-agent
+I then entered the passphrase
+
+I then logged in without a password
+$ssh marie@10.95.87.79
+
+I then tried it with x forwarding
+$ssh -X marie@10.95.87.79
+$xterm
+and the window pops up and required.
+
+

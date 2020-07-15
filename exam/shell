@@ -1,0 +1,4 @@
+#!/bin/sh
+array_name[0]=val;
+echo ${array_name[0]}
+echo "Anything"

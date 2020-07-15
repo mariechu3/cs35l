@@ -1,0 +1,5 @@
+#!/bin/bash
+GDIR=`pwd`
+LIST=`ls $GDIR`
+
+echo $LIST |tr " " "\n" | grep -E "^[A-Z][a-z][a-z]*[RCSQ][a-z]+.ENSG[0-9]+\(([0-9][0-9])\)$"

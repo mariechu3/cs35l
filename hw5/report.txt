@@ -1,0 +1,273 @@
+1. 
+a. I first created the tr2b.c file and edited with vim.
+   In this file I first make a function that would check if the strings
+   'to' and 'from' were the same length and 'from' did not contain duplicates.
+   If they did I would print out an error message and exit.
+
+b. I then wrote a loop that would get the characters one at a time and check
+   if the character was present in 'from' if it was then I would putchar the
+   corresponding letter from 'to', if not I would putchar the character passed
+   in.
+
+c. After finishing those two parts I searched up how passing arguments into main
+   worked and with that knowledge I was able to correctly pass 'from' and 'to'
+   to my error checking function by passing in argv[1] and argv[2] (argv[0]
+   holds the program name).
+
+d. I tested out the executable by redirecting a tester file into stdin with <
+   It worked for the general cases when I had 'hi' 'jk' as arguments, 'ii' 'jk'
+   printed out the error message and exited, and 'hij' 'jk' printed out the
+   error of different length arguments and exited. 
+
+e. However at one point I accidentally
+   forgot to space out my arguments and had 'hi''jk' and recieved a segmentation
+   fault. That's when I realized I additionally had to check if the correct
+   number of arguments were passed in (total of 3 in argsv).
+
+f. After fixing that segmentation fault error, the program behaved as expected.
+
+2. 
+a. I then copied tr2b.c to a file tr2u.c and modified all the getchar and putchar
+   to read and writes of a single byte at a time.
+
+3.
+   I first created a large file with 5,000,000 bytes called big.txt
+   I ran strace command on tr2u and tr2b to see how many system calls were
+   performed. I got the following for results:
+
+a)
+tr2b copying file to another file:
+command used:
+strace -co strace_output ./trb 'AB' 'XY' <big.txt
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 91.10    0.011278           2      4883           write
+  7.63    0.000944           2       613           read
+  0.44    0.000054           6         9           mmap
+  0.25    0.000031           8         4           mprotect
+  0.15    0.000018           5         4           fstat
+  0.11    0.000014           7         2           open
+  0.09    0.000011          11         1           munmap
+  0.06    0.000008           8         1         1 access
+  0.06    0.000008           8         1           execve
+  0.05    0.000006           6         1           brk
+  0.04    0.000005           3         2           close
+  0.02    0.000003           3         1           arch_prctl
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.012380                  5522         1 total
+
+tr2u copying file to another file:
+command used:
+strace -co strace_output2 ./tru 'AB' 'XY' <big.txt
+
+% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 55.73   27.560193           6   5000000           write
+ 44.27   21.895336           4   5000002           read
+  0.00    0.000030           8         4           mprotect
+  0.00    0.000010          10         1           munmap
+  0.00    0.000000           0         2           open
+  0.00    0.000000           0         2           close
+  0.00    0.000000           0         2           fstat
+  0.00    0.000000           0         7           mmap
+  0.00    0.000000           0         1           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+  0.00    0.000000           0         1           arch_prctl
+------ ----------- ----------- --------- --------- ----------------
+100.00   49.455569              10000024         1 total
+
+b)
+tr2b copying file to terminal:
+command used:
+strace -c ./trb 'AB' 'XY' <big.txt
+   
+   D6xNb% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 91.55    0.010323           2      4883           write
+  6.74    0.000760           1       613           read
+  0.49    0.000055           6         9           mmap
+  0.29    0.000033          33         1           execve
+  0.23    0.000026           7         4           mprotect
+  0.18    0.000020           5         4           fstat
+  0.13    0.000015           8         2           open
+  0.12    0.000014          14         1           brk
+  0.10    0.000011          11         1         1 access
+  0.09    0.000010          10         1           munmap
+  0.05    0.000006           3         2           close
+  0.03    0.000003           3         1           arch_prctl
+------ ----------- ----------- --------- --------- ----------------
+100.00    0.011276                  5522         1 total
+
+tr2u copying file to terminal:
+command used:
+strace -c ./tru 'AB' 'XY' < big.txt  
+
+D6xNb% time     seconds  usecs/call     calls    errors syscall
+------ ----------- ----------- --------- --------- ----------------
+ 55.03   29.362948           6   5000000           write
+ 44.97   23.995632           5   5000002           read
+  0.00    0.000025           6         4           mprotect
+  0.00    0.000013          13         1           munmap
+  0.00    0.000011           2         7           mmap
+  0.00    0.000004           4         1           arch_prctl
+  0.00    0.000000           0         2           open
+  0.00    0.000000           0         2           close
+  0.00    0.000000           0         2           fstat
+  0.00    0.000000           0         1           brk
+  0.00    0.000000           0         1         1 access
+  0.00    0.000000           0         1           execve
+------ ----------- ----------- --------- --------- ----------------
+100.00   53.358633              10000024         1 total
+
+4. I then used the time command on it:
+
+For tr2b I got the results of:
+real    0m0.788s
+user    0m0.222s
+sys     0m0.042s
+
+using the command: time ./trb 'AB' 'XY' < big.txt
+
+For tr2u I got the results of:
+real    0m9.401s
+user    0m1.302s
+sys     0m8.008s
+
+using the command: time ./tru 'AB' 'XY' < big.txt
+
+5. It is clear that the unbuffered version takes longer time-wise and 
+   also performs a lot more system calls that the unbuffered version.
+   This is because the libray functions putchar and getchar put characters
+   in a buffer before perfoming the system call, whereas read and write
+   perform the system call directly after every single character. The effects
+   are clearly shown from the difference in the real (clock time), user 
+   (time across all processors during computation) and sys, (time across
+   all processors during system related tasks such as memory allocation).
+
+HOMEWORK PART
+I used the time commmand to test each executable on files with different
+amount of lines.
+1000000 lines
+a) sfrob
+real    0m6.373s
+user    0m0.584s
+sys     0m1.305s
+
+b) sfrobu
+real    0m12.552s
+user    0m0.978s
+sys     0m6.339s
+
+c) sfrobs
+real    0m6.658s
+user    0m0.674s
+sys     0m0.122s
+
+d) sfrobs -f
+real    0m4.616s
+user    0m0.715s
+sys     0m0.135s
+
+e) sfrobu -f
+real    0m7.829s
+user    0m0.998s
+sys     0m6.433s
+
+10000 lines
+a) sfrob
+real    0m0.022s
+user    0m0.008s
+sys     0m0.012s
+
+b) sfrobu
+real    0m0.075s
+user    0m0.015s
+sys     0m0.057s
+
+c) sfrobs
+real    0m0.015s
+user    0m0.005s
+sys     0m0.012s
+
+d) sfrobs -f
+real    0m0.013s
+user    0m0.007s
+sys     0m0.010s
+
+e) sfrobu -f
+real    0m0.075s
+user    0m0.006s
+sys     0m0.068s
+
+100 lines
+a) sfrob
+real    0m0.003s
+user    0m0.002s
+sys     0m0.000s
+
+b) sfrobu
+real    0m0.003s
+user    0m0.000s
+sys     0m0.002s
+
+c) sfrobs
+real    0m0.010s
+user    0m0.002s
+sys     0m0.010s
+
+d) sfrobs -f
+real    0m0.006s
+user    0m0.003s
+sys     0m0.007s
+
+e) sfrobu -f
+real    0m0.003s
+user    0m0.000s
+sys     0m0.002s
+
+0 lines
+a) sfrob
+real    0m0.002s
+user    0m0.000s
+sys     0m0.001s
+
+b) sfrobu
+real    0m0.002s
+user    0m0.001s
+sys     0m0.001s
+
+c) sfrobs
+real    0m0.008s
+user    0m0.006s
+sys     0m0.005s
+
+d) sfrobs -f
+real    0m0.008s
+user    0m0.005s
+sys     0m0.006s
+
+e) sfrobu -f
+real    0m0.002s
+user    0m0.001s
+sys     0m0.001s
+
+Based off these results we see that there is not much difference between the 5 when
+there are not that many lines, but the difference is very apparent when we get to
+100000000. sfrobu is significantly slower as it is the unbuffered version and in 
+both sfrobu and sfrobs the -f flag make the overall process slightly longer. 
+Based off this trend the growth seems to be linear if you compare the user time.
+
+I also was able to check the number of times the comparision function I wrote 
+was called for sfrob and sfrobu.
+
+The results were the same because there are the same number of words in the
+files I tested across the two.
+For 76111 words there was 14019827 comparisions
+For 1346 words there was 41214 words
+For 9 words there was 17 comparisons
+For 0 words there was 0 comparisions
+
+From these results we can see that the number of comparisons grows relatively
+linearly with the increase in word count.

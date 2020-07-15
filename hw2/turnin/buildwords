@@ -1,0 +1,39 @@
+#! /bin/sh
+
+#This gets the lines of all the lines containing '<td>'
+grep -E '<td>' |
+
+#Since the first two lines of <td> are about font color, I start with
+#the third line and print every other line 
+#(which presumably contains Hawaiian words)
+sed -n '3~2p' |
+
+#Deletes all occurances of "?"
+sed "s/?//g" |
+
+#Deletes all occurances of "<u>"
+sed "s/<u>//g" |
+
+#Deletes all occurances of "</u>"
+sed "s/<\/u>//g" |
+
+#Gets all lines that have a word in between the tags
+grep -E "<td>.+<\/td>" |
+
+#converts everything to lowercase
+tr '[A-Z]' '[a-z]' |
+
+#removes the <td> </td> tags
+sed "s/<[^>]*>//g" |
+
+#replaces all " ` " with " ' "
+sed "s/\`/\'/g" |
+
+#gets rid of empty new lines and separates words into new lines
+tr -s '[ ]' '[\n*]' |
+
+#deletes lines that aren't hawaiian words
+sed "/[^pk/'mnwlhaeiou]/d" |
+
+#sorts the results and removes duplicates
+sort -u 

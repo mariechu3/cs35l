@@ -1,0 +1,77 @@
+Exercise 1.1 Moving around in Emacs
+1. open up exer1.html in emacs
+2. C-s H T M L Enter
+3. C-s s c a M-b
+4. C-s s e l f M-b 
+5. C-s a r r o w M-b
+6. C-e
+7. C-a
+8. using C-s to search for keywords, C-n to skip one line at a time, etc.
+9. No
+10.C-x C-c
+
+Exercise 1.2 Deleting text in Emacs
+1. Open up exer2.html
+2. C-u 17 C-n C-k
+3. C-s < ! C-a C-k
+4. C-s < ! C-a M-k M-k
+5. 
+	a. C-s < ! C-b C-b C-u 7 C-d
+	b. C-n C-a M-k M-k M-k
+	c. C-s < ! C-a C-k
+
+Exercise 1.3 Inserting text in Emacs
+1. Open exer3.html
+2. M-% A s s i g n m e n t  SP 1 Enter A s s i g n m e n t SP 4 2 Enter SP SP 
+3. M-< M-% U T F - 8 Enter U S - A S C I I Enter SP
+4. M-< C-M-s [ ^ [ : a s c i i : ] ] Enter C-a C-k
+5. M-< C-s < / o l > Enter Enter
+6. C-x C-s C-x C-c
+
+Exercise 1.4 
+1. create exer4.html
+2. Open exer4.html in emacs
+3. M-> C-r < Enter C-SP C-e M-w M-g M-g 4 1 2 Enter C-y
+4. 
+	a. M-> C-r < ! C-r Enter C-SP C-u 4 C-e M-w M-g M-g 3 9 7 Enter C-y
+	b. M-> C-r < ! C-r C-r Enter C-SP C-u 7 C-f M-w M-g M-g 3 9 6 Enter C-u 2 4 C-f C-y
+	c. M-> C-r < ! C-r C-r C-r Enter C-SP C-u 3 C-e M-w M-g M-g 3 5 2 Enter C-y
+	d. M-> C-r < ! C-r C-r C-r C-r Enter C-SP C-e M-w M-g M-g 1 2 7 Enter C-y
+	e. M-> C-r < ! C-r C-r C-r C-r C-r Enter C-SP C-e M-w M-g M-g 1 8 Enter C-y
+5. C-s ---SP Enter C-a C-SP M-> C-w
+6. C-x u
+7. - - > C-r ---SP Enter < ! - - 
+8. M-< M-% < o l > Enter < o L > Enter ! (Replaced 7 occurances)
+9. following instruction for #9 to view exer4.html with an html browser
+
+Exercise 1.5
+1. M-x m a k e - d i Tab Enter j u n k Enter
+2. C-x C-f j u n k / h e l l o . c Enter (copied code chunk from website and pasted into emacs editor)
+3. M-x c o m p i l e Enter h e l l o Enter y
+4. C-x b h e l l o - o u t Enter C-u M-! . / h e l l o 
+5. C-SP C-e M-w C-x C-f k e y 1 . t x t M-> C-y
+
+copied from hello-out: 
+EOF on input 
+
+Exercise 1.6
+1. C-x b Enter 
+2. ( r a n d o m SP " 9 0 5 - 1 1 6 - 8 7 8 " ) C-j
+	Output:-1626221359846773796
+3. ( s e t q SP x SP ( r a n d o m ) ) C-j
+	Output:-1732954659092164717
+   ( s e t q SP y SP ( r a n d o m ) ) C-j
+	Output:1351478411962894014
+4. ( * SP x SP y ) C-j
+	Output: 1219321945156075802, the result is incorrect because -1732954659092164717*1351478411962894014 =/= 1219321945156075802 , this could be due to an integer overflow 
+5. M-: ( * SP x SP y ) Enter
+	Output: 1219321945156075802 (#o10353715545176734032, #x10ebe6d94fddc11a) The result is the same but it is also displayed in octadecimal and hexadecimal
+6. The two numbers are not truly random because the computer uses an algorithm to generate random numbers so that means there is a way to compute these "random" numbers based on the algorithm. Thus they are not truly random in a mathematical sense but they are pseudorandom.
+7. First I determined the most positive and most negative integers that Emacs Lisp can handle. With the keystrokes:
+	m o s t - p o s i t i v e - f i x n u m C-j Enter m o s t - n e g a t i v e - f i x n u m C-j Enter
+These values turned out to be 2305843009213693951 and -2305843009213693952. -2305843009213693952= -2^61 and 2305843009213693951 = (2^61)-1. For the two variables' product to be incorrect, integer overflow must have occurred. Since the numbers are represented with 62 bits, to estimate the probability of overflow, we let x be a random value between 2^0 and 2^61, for example 2^31. Thus in order for there not to be integer overflow, y must be less than 2^30. However there are alot more numbers from 2^30 to 2^61 than from 0 to 2^30 so it is more likely that y will be a number that causes overflow. For almost all values of x this is the case where it is almost guaranteed that y will be a number that causes the product of the two to have an integer overflow. Thus the probablity there will be integer overflow and thus an incorrect mathematical product is close to 100%.
+
+
+
+
+

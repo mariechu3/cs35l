@@ -1,0 +1,219 @@
+#! /bin/sh
+check()
+{
+if [ $# -eq 0 ]; then #if no arguments are passed in
+        dir=`pwd`
+        cd $dir
+        file=`ls`
+given="t"
+                        duplicateinput
+                        for i in $file
+                        do
+                                checker=`echo $dir"/"$i | tr [A-Z] [a-z]`
+                                foundmatch="f"
+                                for value in $match
+                                do
+                                if [[ $checker == $dir"/"$value ]]; then
+                                        foundmatch="t"
+                                        break
+                                fi
+                                done
+                                if [ $foundmatch == "f" ]; then
+                                        checkrest "$i"
+					bi=5
+                                fi
+                        done
+
+elif [ $# -eq 1 ]; then #if one arg passed in
+        if [ -d "$1" ]; then
+                temp=$1
+                valid="f"
+                given="t"
+                properSyntax $temp
+                if [ $valid == "t" ] ; then
+                        dir=$1
+                        cd $dir
+                        file=`ls`
+                        given="t"
+                        duplicateinput
+                        for i in $file
+                        do
+                                checker=`echo $dir"/"$i | tr [A-Z] [a-z]`
+                                foundmatch="f"
+                                for value in $match
+                                do
+                                if [[ $checker == $dir"/"$value ]]; then
+                                        foundmatch="t"
+                                        break
+                                fi
+                                done
+                                if [ $foundmatch == "f" ]; then
+                                        checkrest "$i"
+                               fi
+
+			done
+		 else
+                        error "invalid input"
+                        exit 126
+                fi
+        else
+                error "invalid input"
+                exit 126
+        fi
+	 
+else
+	error "invalid input"
+	exit 126 	 
+fi
+}
+duplicate()
+{
+dupcall="t"
+	dirPath=$dir"/"$1
+	if [ ${dir:0:1} == "." ]; then
+        	dirPath="."
+	fi 
+	result=`ls -1 $dirPath | cat  | tr [A-Z] [a-z] | sort | uniq -c | grep -v " 1 " | sed "s/ //g" | sed -e '0,/[0-9]/ s/[0-9]//'`
+	properSyntax $result
+	if [ ${#result} -ne 0 ]  && [ $valid == "t" ]; then
+		final=`echo $dirPath | sed 's/\/$//'`
+		echo $final"/"$result
+	fi
+dupcall="f"
+}
+checkrest()
+{
+if [ -f "$1" ] || [ -L "$1" ]; then
+	properSyntax $1
+	exceptions $1
+	if [ $valid == "f" ] && [ fileEx == "t" ]; then
+		echo $dir"/"$1
+	fi
+elif [ -d "$1" ]; then
+	properSyntax $1
+	readRights $1
+	if [ $valid == "t" ]; then
+		for i in "$1"/*
+		do		
+			checkrest "$i"
+		done
+		duplicateinput "$1"
+	fi
+fi
+}
+duplicateinput()
+{
+dupcall="t"
+match=""
+matchtwo=""
+#echo called this manyy times, and match is $match
+        dirPath=$dir"/"$1
+        if [ ${dir:0:1} == "." ]; then
+                dirPath="."
+        fi
+#       result=`ls -1 $dirPath | tr [A-Z] [a-z] | sort | uniq -c | grep -v " 1 " | sed "s/ //g" | sed -e '0,/[0-9]/ s/[0-9]//'`
+        result=`ls -1 $dirPath | tr [A-Z] [a-z] | sort | uniq -c | grep -v " 1 " | sed "s/^ *//g" | sed 's/^[0-9]* //'`
+        #properSyntax $result
+#       declare -a match
+#       count=0
+        if [ ${#result} -ne 0 ]; then
+                for value in $result; do
+                final=`echo $dirPath | sed 's/\/$//'`
+                echo $final"/"$value
+#               match[$count]=$final"/"$value
+#               ((count++))
+                dupcall="f"
+                done
+                if [ $given == "t" ]; then
+                        match=$result
+                        given="f"
+                        return
+                else
+                        matchtwo=$result
+                return
+                fi
+        fi
+match=""
+dupcall="f"
+}
+
+readRights()
+{
+if ! [[ -r $1 ]]; then   
+	valid="f"  
+	error "no read rights for $dir"/"$1"
+        return
+fi
+}
+properSyntax()
+{
+valid="f"
+local new=""
+for (( i=0; i<${#1}; i++ )); do
+  if [ ${1:$i:1} != "/" ]; then
+        new=$new${1:$i:1}
+  else
+        new=""
+  fi
+done
+if [[ $new =~ [^A-Za-z_.\-] ]]; then
+	if [[ $dupcall == "f" ]]; then
+	echo $dir"/"$1
+	fi
+	return
+elif [[ ${#new} -gt 14 ]]; then
+	if [[ $dupcall == "f" ]]; then
+        echo $dir"/"$1
+        fi
+	return
+elif [[ $new =~ ^- ]]; then
+	if [[ $dupcall == "f" ]]; then
+        echo $dir"/"$1
+        fi
+	return
+elif [[ $new == "." ]] || [[ $1 == ".." ]]; then 
+	valid="t"
+	return
+elif [[ $new =~ ^\. ]]; then
+	if [[ $dupcall == "f" ]]; then
+        echo $dir"/"$1
+        fi
+	return
+fi
+valid="t"
+}
+exceptions()
+{
+fileEx="f"
+if [[ $1 =~ [[A-Z][a-z]\.,-\s_\*] ]]; then
+        fileEx="t"
+elif [[ $1 =~ ^- ]]; then
+        fileEx="t"
+fi
+}
+
+input()
+{
+local new=""
+start=1
+if [ ${temp:0:1} != "/" ]; then
+	start=0
+fi
+for (( i=start; i<${#temp}; i++ )); do
+  if [ ${temp:$i:1} != "/" ]; then
+	new=$new${temp:$i:1}
+  elif [[ $new =~ ^[^-][^/]*$ ]]; then #probably code here that calls propersyntax for new
+	valid="t"
+	new=""		
+  else 
+	valid="f"
+	break
+  fi
+done
+}
+error()
+{
+  awk " BEGIN { print \"$@\" > \"/dev/fd/2\" }"
+}
+check "$@"
+

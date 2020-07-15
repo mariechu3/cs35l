@@ -1,0 +1,77 @@
+2. I checkout out version 3.0 of Diffutils in my repository and created
+a new branch "quote"
+$git checkout v3.0
+$git checkout -b quote
+
+3. I installed the new change into the branch with:
+$patch -p1 < ../quote-3.0-patch.txt
+and patched 6 files
+
+4/5. I opened each file that I patched in emacs 
+$emacs src/cmp.c
+$emacs src/diff.c
+$emacs src/diff3.c
+$emacs src/dir.c
+$emacs src/sdiff.c
+$emacs src/util.c
+and create a change log entry for each one using C-x 4 a
+
+6. I commited the changes to the new branch, using the ChangeLog entry as the
+commit message.
+$git status (saw there were 6 files)
+$git add . (adding those to the staging area)
+$git commit -F ChangeLog (-F takes the specifies file as commit message)
+
+7. I used the commmand to format the patch:
+$git format-patch -1 --stdout > formatted-patch.txt
+
+8. Partner was: Nelson Truong 
+I obtained the formatted patch from my partner and copied it to my diffutils dir
+I then checked out version 3
+$git checkout v3.0
+created a branch named partner
+$git checkout -b partner
+Then I applied the patch using 
+$git am < formatted-patch.txt (git am used to apply formatted patches, git apply elsewise)
+I then built 
+$make check  
+I tested that the patch worked by doing diff . - and seeing that the necessary 
+changes were applied. 
+
+9. I ran the command make distdir then found that the results in my ChangeLog were 
+$make distdir
+$cd diffutils-3.0.1-284a
+$cat ChangeLog |head
+2019-05-31  Marie Molly Chu  <molly@lnxsrv06.seas.ucla.edu>
+
+        2019-05-31  Marie Molly Chu  <molly@lnxsrv06.seas.ucla.edu>
+                * src/util.c: Changed the grave accent characters to single quotes in character string constants
+
+                * src/sdiff.c: Changed the grave accent characters to single quotes in character string constants
+...
+So My ChangeLog entry worked.
+
+10. I changed to the directory with the copy of GNU EMACs git repos.
+$cd ~eggert/src/gnu/emacs 
+The I ran gitk on it
+$gitk
+A window popped up that showed the commits and information about it, however
+There were a lot of commits and it would take too long to try to manually
+search for the newwest merge that is no newer than 2015-01-25, so I exited
+out of the popup, then I searched how I could narrow down the entries to
+those 2015-01-25 or slightly before. I tested with the range of dates 
+(2015-01-01) - (2015-01-25) using
+$gitk --since="2015-01-01" --until="2015-01-25"
+This time the pop up only included commits between those two dates inclusive.
+I looked at the commit messages and the graphical depicition of the trees and
+blobs to the left of the commit messages. 
+I find the most recent merge that is not newer than "2015-01-25" by the commit
+message : "Merge branch 'master' into xwidget" by Joakim Verona on 2015-01-25 at
+12:19:27. 
+The graphical depiction shows a red tree merging onto a pink line.
+Clicking on this commit I see the bottom left subwindow brings up additional 
+information about the commit with the Author, Committer, Parents, child,
+branches, Follows, precedes, and commit message. 
+Clicking on the hash values of the parents and childs brings me to that commit.
+The comment subwindow was empty because there were no files that were impacted
+by this commit, it was only a merging of the master branch into xwidget. 

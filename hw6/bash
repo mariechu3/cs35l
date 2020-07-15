@@ -1,0 +1,6 @@
+#!/bin/sh
+
+num=`dc -e "2 24 ^ p"`
+size=`expr $num \* 4`
+
+od -t fF -w4 -An -N$size | sed "s/ //g"

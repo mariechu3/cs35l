@@ -1,0 +1,5 @@
++++ b/tests/local.mk, but since I was in the directory with /tests/local.mk the
+coreutils-8.29 directory that compiled the fixed version of ls.
+make (to compile) 
+that it corresponded to coreutils version 8.22
+they happen.

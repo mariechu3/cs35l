@@ -1,0 +1,158 @@
+I first checked if I was in the standard C or POSIX locale by typing the
+shell command locale. Since it did not have LC_CTYPE = "C" or LC_CTYPE =
+"POSIX" I typed the command export LC_ALL='C'. I then created a file
+called words in my directory using "touch words". 
+
+Then I found out how to put the sorted contents of the file 
+/usr/share/dict/words into the words file I created using
+"man sort". To put the words into my words file in a sorted 
+order I used "sort -o words /usr/share/dict/words" and using
+"cat words" I found out that the words were sorted in alphabetical order
+from A-Z then a-z.
+
+Then using  
+wget http://web.cs.ucla.edu/classes/spring19/cs35L/assign/assign2.html 
+I got the text file containing the HTML saved to assign2.html. I used a
+copy of assign2.html called test.txt (using cp assign2.html test.txt)
+as the standard input for the following.
+$cat test.txt | tr -c 'A-Za-z' '[\n*]' 
+	led to the result of a single word/character on one line and
+	multiple empty lines in between. (tr -c translates all non-alpha 
+	characters into new lines)
+$cat test.txt | tr -cs 'A-Za-z' '[\n*]' 
+	led to the result of a single word/character on one line and no 
+	empty lines in between (-s replaces each sequence of a repeated
+	charater that is listed in the last specified SET, with a single
+	occurance of that character, effectively getting rid of the extra 
+	new lines)
+$cat test.txt | tr -cs 'A-Za-z' '[\n*]' |sort
+	led to the results of a single word/character on one line 
+	(with multiple occurances of that word/letter in a row in some cases)
+	 in alphabetical ascending order with no empty lines in between 
+	(piping to sort the words/characters in ascending alphabetical order)
+$cat test.txt | tr -cs 'A-Za-z' '[\n*]' |sort -u
+	led to the results of a single word/character on one line in 
+	alphabetical ascending order with no duplicates of the word 
+	(unless one has lowercases and the other has upper cases) and no 
+	empty lines in between (-u outputs only the first of an equal run/ 
+	gets rid of duplicates of the word or character)
+$cat test.txt | tr -cs 'A-Za-z' '[\n*]' |sort -u |comm - words
+	This gave me three columns: the words in the html that were not in 
+	the "dictionary", all the words in the "dictionary" that weren't in 
+	the document, and words that appeared in both (comm - words compares 
+	the standard input (piped information) with words)
+$cat test.txt | tr -cs 'A-Za-z' '[\n*]' |sort -u |comm -23 - words
+	led to a list of all the "words" in the html document that were not in 
+	the "dictionary" (-23 supresses column 2 and 3 which are lines unique 
+	to file2 and lines that appear in both files)
+	
+Hawaiian
+-After every step make a copy of hwords to the tester or a copy of the tester 
+to hwords for backup
+-To extract the words I extracted all lines that contained <td> by using grep 
+-E '<td>' hwnwdshw.htm > hwords which got all the lines that contained <td> 
+from hwnwdshw.html and redirected them to the file hwords.
+-I then created a testing file (tester) with the extracted words from the html 
+file.
+-Then I noticed that the first two lines of the extracted text were dealing 
+with font color and starting from line 3, every other line after that was 
+Hawaiian. So used this command to extract every odd line from tester into hword
+	sed -n '3~2p' hwords > tester
+	cp tester hwords
+-I got rid of ? and <u> and </u> using 
+sed "s/?//g" hwords | sed "s/<u>//g" | sed "s/<\/u>//g" > tester
+-To get rid of the extra lines that had no Hawaiian words 
+(such as break lines <tr><br>) I did
+	grep -E "<td>.+<\/td>" hwords > tester
+	cp tester hwords
+I then coverted to lower case 
+	cp tester hwords
+	cat tester |tr [A-Z] [a-z] > hwords
+	cp hwords tester
+To get rid of the html tags
+	sed "s/<[^>]*>//g" hwords > tester 
+	cp tester  hwords
+To change all the ` to ' I used
+	sed "s/\`/\'/g" tester > hwords
+	cp hwords tester
+To separate two words on a line onto one line each and remove extra new lines 
+I used
+	cat tester | tr -s '[]' '[\n*]'
+	cp hwords tester
+	cp tester hwords
+Finally to sort the results I used
+	sort -u hwords
+
+With these steps in mind I wrote a shell script by just piping these commands 
+to the next command without using separate files like hwords and tester and 
+adding #! /bin/sh to the front: 
+buildwords :
+#! /bin/sh
+#This gets the lines of all the lines containing '<td>'
+grep -E '<td>' |
+#Since the first two lines of <td> are about font color, I start with
+the third line and print every other line 
+(which presumably contains Hawaiian words)
+sed -n '3~2p' |
+#Deletes all occurances of "?"
+sed "s/?//g" |
+#Deletes all occurances of "<u>"
+sed "s/<u>//g" |
+#Deletes all occurances of "</u>"
+sed "s/<\/u>//g" |
+#Gets all lines that have a word in between the tags
+grep -E "<td>.+<\/td>" |
+#converts everything to lowercase
+tr [A-Z] [a-z] |
+#removes the <td> </td> tags
+sed "s/<[^>]*>//g" |
+#replaces all " ` " with " ' "
+sed "s/\`/\'/g" |
+#gets rid of empty new lines and separates words into new lines
+tr -s '[ ]' '[\n*]' |
+#code here that deletes lines that aren't hawaiian words
+#sorts the results and removes duplicates
+sort -u
+
+tr -cs "A-Za-z'" '[\n*]' | tr [A-Z] [a-z] | sort -u | comm -23  - hwords 
+#HawaiianChecker checks with only ascii letters and ' left 
+
+testing out with just the hwords file itself 
+cat hwords | tr -cs "A-Za-z'" '[\n*]' | tr [A-Z] [a-z]|
+sort -u | comm -3  - hwords 
+// showed that there were no entries in hwords that weren't in hwords
+
+using wget http://web.cs.ucla.edu/classes/spring19/cs35L/assign/assign2.html
+
+Misspelled Hawaiian words
+cat assign2.html.1 | tr -cs "A-Za-z'" '[\n*]' | tr [A-Z] [a-z]| sort -u |
+comm -23  - hwords 
+Examples of  mispelled words : "zero" and "want"
+pipe to wc
+Result 496
+
+Misspelled English words
+cat assign2.html.1 | tr -cs 'A-Za-z' '[\n*]' | sort -u | comm -23  - words 
+Examples of mispelled words : "www" and "wikipedia"
+pipe to wc
+Result 84
+
+redirecting the two cat assign2.html.1 | tr -cs "A-Za-z'" '[\n*]' | 
+tr [A-Z] [a-z]| sort -u | comm -23  - hwords and cat assign2.html.1 | 
+tr -cs "A-Za-z" '[\n*]' | sort -u | comm -23  - words 
+into temporary files misH and misE
+I used 
+cat misE | tr -cs "A-Za-z'" '[\n*]' |tr [A-Z] [a-z] |sort -u | 
+comm -12 - hwords 
+This runs the hawaiian checker on the mispelled english words and by supressing 
+columns 1 and 2 I get the results of both mispelled english words and valid 
+hawaiian words.
+Two words that Englishchecker reports as mispelled and hawaiian checker doesn't 
+is "wiki" and "lau".  
+
+This runs the english checker on mispelled hawaiian words and supressing column
+1 and 2 yield me mispelled hawaiian words and valid english words (however 
+english checker does not convert to lower case so may not be accurate)
+misH | comm -12 - words  <-- check if use this is better
+comm -23 misH misE
+Example of words : "zero"  and "want"

@@ -1,0 +1,5374 @@
+this is result
+this is checker
+[
+this is checker2
+this is checker
+/usr/bin/a2p
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-backtrace
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-c
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-ccpp-local
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-core
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-oops
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-python
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-vmcore
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-vulnerability
+this is checker2
+this is checker
+/usr/bin/abrt-action-analyze-xorg
+this is checker2
+this is checker
+/usr/bin/abrt-action-check-oops-for-hw-error
+this is checker2
+this is checker
+/usr/bin/abrt-action-generate-backtrace
+this is checker2
+this is checker
+/usr/bin/abrt-action-generate-core-backtrace
+this is checker2
+this is checker
+/usr/bin/abrt-action-install-debuginfo
+this is checker2
+this is checker
+/usr/bin/abrt-action-list-dsos
+this is checker2
+this is checker
+/usr/bin/abrt-action-notify
+this is checker2
+this is checker
+/usr/bin/abrt-action-perform-ccpp-analysis
+this is checker2
+this is checker
+/usr/bin/abrt-action-save-kernel-data
+this is checker2
+this is checker
+/usr/bin/abrt-action-save-package-data
+this is checker2
+this is checker
+/usr/bin/abrt-action-trim-files
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/abrt-handle-upload
+this is checker2
+this is checker
+/usr/bin/abrt-merge-pstoreoops
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/abs2rel
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/aclocal-1.13
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/addr2line
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/afm2tfm
+this is checker2
+this is checker
+/usr/bin/afs5log
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/akonadi2xml
+this is checker2
+this is checker
+/usr/bin/akonadi_agent_launcher
+this is checker2
+this is checker
+/usr/bin/akonadi_agent_server
+this is checker2
+this is checker
+/usr/bin/akonadi_birthdays_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_control
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/akonadi_davgroupware_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_icaldir_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_imap_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_invitations_agent
+this is checker2
+this is checker
+/usr/bin/akonadi_kabc_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_kcal_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_kdeaccounts_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_localbookmarks_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_maildispatcher_agent
+this is checker2
+this is checker
+/usr/bin/akonadi_mailtransport_dummy_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_microblog_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_mixedmaildir_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_nepomuk_feeder
+this is checker2
+this is checker
+/usr/bin/akonadi_nepomuktag_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_nntp_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_openxchange_resource
+this is checker2
+this is checker
+/usr/bin/akonadi_pop3_resource
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/akonadi_vcarddir_resource
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/akregatorstorageexporter
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/appstream-compose
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/apr-1-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/apu-1-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/autom4te
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/automake-1.13
+this is checker2
+this is checker
+/usr/bin/automoc4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/base64
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/bashbug-64
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/berkeley_db47_svc
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/bond2team
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/build-classpath
+this is checker2
+this is checker
+/usr/bin/build-classpath-directory
+this is checker2
+this is checker
+/usr/bin/build-jar-repository
+this is checker2
+this is checker
+/usr/bin/bunzip2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/bzip2
+this is checker2
+this is checker
+/usr/bin/bzip2recover
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/c++
+this is checker2
+this is checker
+/usr/bin/c2ph
+this is checker2
+this is checker
+/usr/bin/c89
+this is checker2
+this is checker
+/usr/bin/c99
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/callgrind_annotate
+this is checker2
+this is checker
+/usr/bin/callgrind_control
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/canberra-gtk-play
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/cd-create-profile
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/cd-it8
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/centrino-decode
+this is checker2
+this is checker
+/usr/bin/certmaster-getcert
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/c++filt
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/check-binary-files
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/chsh.20150827
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/clean-binary-files
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/collateindex.pl
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/complete-ant-cmd.pl
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/cpan2dist
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/crc32
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/createfontdatachunk.py
+this is checker2
+this is checker
+/usr/bin/createfontdatachunk.pyc
+this is checker2
+this is checker
+/usr/bin/create-jar-links
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/csslint-0.6
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/db2dvi
+this is checker2
+this is checker
+/usr/bin/db2html
+this is checker2
+this is checker
+/usr/bin/db2pdf
+this is checker2
+this is checker
+/usr/bin/db2ps
+this is checker2
+this is checker
+/usr/bin/db2rtf
+this is checker2
+this is checker
+/usr/bin/db47_archive
+this is checker2
+this is checker
+/usr/bin/db47_checkpoint
+this is checker2
+this is checker
+/usr/bin/db47_codegen
+this is checker2
+this is checker
+/usr/bin/db47_deadlock
+this is checker2
+this is checker
+/usr/bin/db47_dump
+this is checker2
+this is checker
+/usr/bin/db47_hotbackup
+this is checker2
+this is checker
+/usr/bin/db47_load
+this is checker2
+this is checker
+/usr/bin/db47_printlog
+this is checker2
+this is checker
+/usr/bin/db47_recover
+this is checker2
+this is checker
+/usr/bin/db47_stat
+this is checker2
+this is checker
+/usr/bin/db47_upgrade
+this is checker2
+this is checker
+/usr/bin/db47_verify
+this is checker2
+this is checker
+/usr/bin/db4-entities.pl
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/db_dump185
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/dbus-binding-tool
+this is checker2
+this is checker
+/usr/bin/dbus-cleanup-sockets
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/dbus-run-session
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/dbus-update-activation-environment
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/debuginfo-install
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/designer-qt4
+this is checker2
+this is checker
+/usr/bin/desktop-file-edit
+this is checker2
+this is checker
+/usr/bin/desktop-file-install
+this is checker2
+this is checker
+/usr/bin/desktop-file-validate
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/diff3
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/display-buttons
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/docbook2dvi
+this is checker2
+this is checker
+/usr/bin/docbook2html
+this is checker2
+this is checker
+/usr/bin/docbook2man
+this is checker2
+this is checker
+/usr/bin/docbook2pdf
+this is checker2
+this is checker
+/usr/bin/docbook2ps
+this is checker2
+this is checker
+/usr/bin/docbook2rtf
+this is checker2
+this is checker
+/usr/bin/docbook2tex
+this is checker2
+this is checker
+/usr/bin/docbook2texi
+this is checker2
+this is checker
+/usr/bin/docbook2txt
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/dos2unix
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/dvd-ram-control
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/dvd+rw-booktype
+this is checker2
+this is checker
+/usr/bin/dvd+rw-format
+this is checker2
+this is checker
+/usr/bin/dvd+rw-mediainfo
+this is checker2
+this is checker
+/usr/bin/dvi2fax
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/easy_install-2.7
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/emacs-24.3
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/eps2eps
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/eu-addr2line
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/eu-make-debug-archive
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/f2py
+this is checker2
+this is checker
+/usr/bin/f95
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/fc-cache-64
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/find2perl
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/find-repos-of-install
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/firewall-offline-cmd
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/flex++
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/font2c
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/freetype-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/fusermount-glusterfs
+this is checker2
+this is checker
+/usr/bin/g++
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gconf-merge-tree
+this is checker2
+this is checker
+/usr/bin/gconftool-2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gdk-pixbuf-csource
+this is checker2
+this is checker
+/usr/bin/gdk-pixbuf-pixdata
+this is checker2
+this is checker
+/usr/bin/gdk-pixbuf-query-loaders-64
+this is checker2
+this is checker
+/usr/bin/gdk-pixbuf-thumbnailer
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/geoiplookup6
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gimp-2.8
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gimp-console-2.8
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gio-querymodules-64
+this is checker2
+this is checker
+/usr/bin/g-ir-annotation-tool
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/git-receive-pack
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/git-upload-archive
+this is checker2
+this is checker
+/usr/bin/git-upload-pack
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/glib-compile-resources
+this is checker2
+this is checker
+/usr/bin/glib-compile-schemas
+this is checker2
+this is checker
+/usr/bin/glib-genmarshal
+this is checker2
+this is checker
+/usr/bin/glib-gettextize
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/glxinfo64
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gnome-keyring-3
+this is checker2
+this is checker
+/usr/bin/gnome-keyring-daemon
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gnomevfs-monitor
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gpg2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gpg-connect-agent
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gpg-error-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gpgv2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gr2fonttest
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/grilo-test-ui-0.3
+this is checker2
+this is checker
+/usr/bin/grl-inspect-0.3
+this is checker2
+this is checker
+/usr/bin/grl-launch-0.3
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/grub2-editenv
+this is checker2
+this is checker
+/usr/bin/grub2-file
+this is checker2
+this is checker
+/usr/bin/grub2-fstest
+this is checker2
+this is checker
+/usr/bin/grub2-glue-efi
+this is checker2
+this is checker
+/usr/bin/grub2-kbdcomp
+this is checker2
+this is checker
+/usr/bin/grub2-menulst2cfg
+this is checker2
+this is checker
+/usr/bin/grub2-mkfont
+this is checker2
+this is checker
+/usr/bin/grub2-mkimage
+this is checker2
+this is checker
+/usr/bin/grub2-mklayout
+this is checker2
+this is checker
+/usr/bin/grub2-mknetdir
+this is checker2
+this is checker
+/usr/bin/grub2-mkpasswd-pbkdf2
+this is checker2
+this is checker
+/usr/bin/grub2-mkrelpath
+this is checker2
+this is checker
+/usr/bin/grub2-mkrescue
+this is checker2
+this is checker
+/usr/bin/grub2-mkstandalone
+this is checker2
+this is checker
+/usr/bin/grub2-render-label
+this is checker2
+this is checker
+/usr/bin/grub2-script-check
+this is checker2
+this is checker
+/usr/bin/grub2-syslinux2cfg
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gsdj500
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gsettings-data-convert
+this is checker2
+this is checker
+/usr/bin/gsf-office-thumbnailer
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gst-feedback-0.10
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gst-inspect-0.10
+this is checker2
+this is checker
+/usr/bin/gst-inspect-1.0
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gst-launch-0.10
+this is checker2
+this is checker
+/usr/bin/gst-launch-1.0
+this is checker2
+this is checker
+/usr/bin/gst-stats-1.0
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gst-typefind-0.10
+this is checker2
+this is checker
+/usr/bin/gst-typefind-1.0
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gst-xmlinspect-0.10
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gst-xmllaunch-0.10
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gtk3-demo
+this is checker2
+this is checker
+/usr/bin/gtk3-demo-application
+this is checker2
+this is checker
+/usr/bin/gtk3-icon-browser
+this is checker2
+this is checker
+/usr/bin/gtk3-widget-factory
+this is checker2
+this is checker
+/usr/bin/gtk-builder-convert
+this is checker2
+this is checker
+/usr/bin/gtk-builder-tool
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gtk-encode-symbolic-svg
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gtk-query-immodules-2.0-64
+this is checker2
+this is checker
+/usr/bin/gtk-query-immodules-3.0-64
+this is checker2
+this is checker
+/usr/bin/gtk-query-settings
+this is checker2
+this is checker
+/usr/bin/gtk-update-icon-cache
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gupnp-dlna-info-2.0
+this is checker2
+this is checker
+/usr/bin/gupnp-dlna-ls-profiles-2.0
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gvfs-monitor-dir
+this is checker2
+this is checker
+/usr/bin/gvfs-monitor-file
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/gvfs-set-attribute
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/h2ph
+this is checker2
+this is checker
+/usr/bin/h2xs
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hb-ot-shape-closure
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hmac256
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hpcups-update-ppds
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/httxt2dbm
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/huge_page_setup_helper.py
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hwloc-assembler
+this is checker2
+this is checker
+/usr/bin/hwloc-assembler-remote
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hwloc-compress-dir
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hwloc-distances
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/hwloc-gather-topology
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/i386
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ibus-table-createdb
+this is checker2
+this is checker
+/usr/bin/ical2vcal
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/icu-config-64
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/idiag-socket-details
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ijsgutenprint.5.2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/imsettings-info
+this is checker2
+this is checker
+/usr/bin/imsettings-list
+this is checker2
+this is checker
+/usr/bin/imsettings-reload
+this is checker2
+this is checker
+/usr/bin/imsettings-switch
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/insights-client
+this is checker2
+this is checker
+/usr/bin/insights-client-run
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/install-catalog
+this is checker2
+this is checker
+/usr/bin/install-printerdriver
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/intltool-extract
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/intltool-prepare
+this is checker2
+this is checker
+/usr/bin/intltool-update
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/isdv4-serial-inputattach
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ispellaff2myspell
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/itweb-settings.itweb
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/json-glib-format
+this is checker2
+this is checker
+/usr/bin/json-glib-validate
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/k5srvutil
+this is checker2
+this is checker
+/usr/bin/kabc2mutt
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kactivitymanagerd
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kaddressbookmigrator
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kalarmautostart
+this is checker2
+this is checker
+/usr/bin/kapplymousetheme
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kbookmarkmerger
+this is checker2
+this is checker
+/usr/bin/kbuildsycoca4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kcminit_startup
+this is checker2
+this is checker
+/usr/bin/kcmshell4
+this is checker2
+this is checker
+/usr/bin/kconfig_compiler4
+this is checker2
+this is checker
+/usr/bin/kcookiejar4
+this is checker2
+this is checker
+/usr/bin/kde4
+this is checker2
+this is checker
+/usr/bin/kde4-config
+this is checker2
+this is checker
+/usr/bin/kde4-doxygen.sh
+this is checker2
+this is checker
+/usr/bin/kde4-menu
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kded4
+this is checker2
+this is checker
+/usr/bin/kdeinit4
+this is checker2
+this is checker
+/usr/bin/kdeinit4_shutdown
+this is checker2
+this is checker
+/usr/bin/kdeinit4_wrapper
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kdostartupconfig4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kfile4
+this is checker2
+this is checker
+/usr/bin/kfilemetadatareader
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/khotnewstuff4
+this is checker2
+this is checker
+/usr/bin/khotnewstuff-upload
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kincidenceeditor
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kmimetypefinder
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/knotify4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/konsolekalendar
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kopete_latexconvert.sh
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/krb5-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kscreen-console
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ksh93
+this is checker2
+this is checker
+/usr/bin/kshell4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kstartupconfig4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kunittestmodrunner
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/kwrapper4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ldns-compare-zones
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ldns-key2ds
+this is checker2
+this is checker
+/usr/bin/ldns-keyfetcher
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ldns-nsec3-hash
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ldns-verify-zone
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/libgcrypt-config
+this is checker2
+this is checker
+/usr/bin/libgnutls-config
+this is checker2
+this is checker
+/usr/bin/libieee1284_test
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/libinput-debug-events
+this is checker2
+this is checker
+/usr/bin/libinput-list-devices
+this is checker2
+this is checker
+/usr/bin/libmcrypt-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/libpng15-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/libwacom-list-local-devices
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/linguist-qt4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/linux32
+this is checker2
+this is checker
+/usr/bin/linux64
+this is checker2
+this is checker
+/usr/bin/linux-boot-prober
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/lrelease-qt4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/lstopo-no-graphics
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/lupdate-qt4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/lz4
+this is checker2
+this is checker
+/usr/bin/lz4c
+this is checker2
+this is checker
+/usr/bin/lz4cat
+this is checker2
+this is checker
+/usr/bin/m17n-conv
+this is checker2
+this is checker
+/usr/bin/m4
+this is checker2
+this is checker
+/usr/bin/mac2unix
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/makekdewidgets4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/md5sum
+this is checker2
+this is checker
+/usr/bin/meinproc4
+this is checker2
+this is checker
+/usr/bin/meinproc4_simple
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/mk4ht
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/mkrfc2734
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/moc-qt4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/native2ascii
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ncurses5-config
+this is checker2
+this is checker
+/usr/bin/ncursesw5-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/needs-restarting
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nepomuk2-rcgen
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nepomukcontroller
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nepomukpimindexerutility
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nepomukservicestub
+this is checker2
+this is checker
+/usr/bin/nepomuk-simpleresource-rcgen
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/net-snmp-config
+this is checker2
+this is checker
+/usr/bin/net-snmp-config-x86_64
+this is checker2
+this is checker
+/usr/bin/net-snmp-create-v3-user
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nettle-lfib-stream
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/newaliases.postfix
+this is checker2
+this is checker
+/usr/bin/newaliases.sendmail
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nfs4_editfacl
+this is checker2
+this is checker
+/usr/bin/nfs4_getfacl
+this is checker2
+this is checker
+/usr/bin/nfs4_setfacl
+this is checker2
+this is checker
+/usr/bin/nfsiostat-sysstat
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-class-delete
+this is checker2
+this is checker
+/usr/bin/nl-classid-lookup
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-link-enslave
+this is checker2
+this is checker
+/usr/bin/nl-link-ifindex2name
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-link-name2ifindex
+this is checker2
+this is checker
+/usr/bin/nl-link-release
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-list-sockets
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-neigh-delete
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-neightbl-list
+this is checker2
+this is checker
+/usr/bin/nl-pktloc-lookup
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-qdisc-delete
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nl-route-delete
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nosetests-2.7
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/nss-softokn-config
+this is checker2
+this is checker
+/usr/bin/nss-util-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/oLschema2ldif
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/onto2vocabularyclass
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/op-check-perfevents
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/openlmi-doc-class2rst
+this is checker2
+this is checker
+/usr/bin/openlmi-doc-class2uml
+this is checker2
+this is checker
+/usr/bin/openlmi-mof-register
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/osinfo-db-export
+this is checker2
+this is checker
+/usr/bin/osinfo-db-import
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/osinfo-db-validate
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/osinfo-install-script
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/oxygen-settings
+this is checker2
+this is checker
+/usr/bin/oxygen-shadow-demo
+this is checker2
+this is checker
+/usr/bin/p11-kit
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pack200
+this is checker2
+this is checker
+/usr/bin/package-cleanup
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/padsp-32
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pango-querymodules-64
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/papi_command_line
+this is checker2
+this is checker
+/usr/bin/papi_component_avail
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/papi_error_codes
+this is checker2
+this is checker
+/usr/bin/papi_event_chooser
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/papi_multiplex_cost
+this is checker2
+this is checker
+/usr/bin/papi_native_avail
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/papi_xml_event_info
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pax11publish
+this is checker2
+this is checker
+/usr/bin/pbm2ppa
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pcp2csv
+this is checker2
+this is checker
+/usr/bin/pcp2graphite
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pdf2dsc
+this is checker2
+this is checker
+/usr/bin/pdf2ps
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/perl5.16.3
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pf2afm
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pinentry-curses
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pinentry-gtk-2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ping6
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pip2
+this is checker2
+this is checker
+/usr/bin/pip2.7
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pk12util
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pkcs1-conv
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pkla-admin-identities
+this is checker2
+this is checker
+/usr/bin/pkla-check-authorization
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pl2pm
+this is checker2
+this is checker
+/usr/bin/plasma-dataengine-depextractor
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/plasma-remote-helper
+this is checker2
+this is checker
+/usr/bin/plasma-windowed
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pmie2col
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pm-is-supported
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/png2theora
+this is checker2
+this is checker
+/usr/bin/pnm2ppa
+this is checker2
+this is checker
+/usr/bin/pod2html
+this is checker2
+this is checker
+/usr/bin/pod2latex
+this is checker2
+this is checker
+/usr/bin/pod2man
+this is checker2
+this is checker
+/usr/bin/pod2texi
+this is checker2
+this is checker
+/usr/bin/pod2text
+this is checker2
+this is checker
+/usr/bin/pod2usage
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/policyeditor.itweb
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/powernow-k8-decode
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ps2ascii
+this is checker2
+this is checker
+/usr/bin/ps2epsi
+this is checker2
+this is checker
+/usr/bin/ps2pdf
+this is checker2
+this is checker
+/usr/bin/ps2pdf12
+this is checker2
+this is checker
+/usr/bin/ps2pdf13
+this is checker2
+this is checker
+/usr/bin/ps2pdf14
+this is checker2
+this is checker
+/usr/bin/ps2pdfwr
+this is checker2
+this is checker
+/usr/bin/ps2ps
+this is checker2
+this is checker
+/usr/bin/ps2ps2
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pstree.x11
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pylupdate4
+this is checker2
+this is checker
+/usr/bin/pyrcc4
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/python2
+this is checker2
+this is checker
+/usr/bin/python2.7
+this is checker2
+this is checker
+/usr/bin/python2.7-config
+this is checker2
+this is checker
+/usr/bin/python2-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/pyuic4
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/qcatool2
+this is checker2
+this is checker
+/usr/bin/qcollectiongenerator
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/qdbuscpp2xml
+this is checker2
+this is checker
+/usr/bin/qdbusxml2cpp
+this is checker2
+this is checker
+/usr/bin/qdoc3
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/qmake-qt4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/qt3to4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/rebuild-jar-repository
+this is checker2
+this is checker
+/usr/bin/recode-sr-latin
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/redhat-access-insights
+this is checker2
+this is checker
+/usr/bin/redhat-support-tool
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/redland-db-upgrade
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/reporter-rhtsupport
+this is checker2
+this is checker
+/usr/bin/reporter-upload
+this is checker2
+this is checker
+/usr/bin/reporter-ureport
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/rpm2cpio
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/rsvg-view-3
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/rsyslog-recover-qi.pl
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/s2p
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sane-find-scanner
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sasl2-sample-client
+this is checker2
+this is checker
+/usr/bin/sasl2-sample-server
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/scp-dbus-service
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/selfsign-getcert
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/servicemenudeinstallation
+this is checker2
+this is checker
+/usr/bin/servicemenuinstallation
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/setup-nsssysinit
+this is checker2
+this is checker
+/usr/bin/setup-nsssysinit.sh
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sgml2xml
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sha1hmac
+this is checker2
+this is checker
+/usr/bin/sha1sum
+this is checker2
+this is checker
+/usr/bin/sha224sum
+this is checker2
+this is checker
+/usr/bin/sha256hmac
+this is checker2
+this is checker
+/usr/bin/sha256sum
+this is checker2
+this is checker
+/usr/bin/sha384hmac
+this is checker2
+this is checker
+/usr/bin/sha384sum
+this is checker2
+this is checker
+/usr/bin/sha512hmac
+this is checker2
+this is checker
+/usr/bin/sha512sum
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/show-changed-rco
+this is checker2
+this is checker
+/usr/bin/showconsolefont
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sndfile-resample
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/solid-action-desktop-gen
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sqlite3
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/sss_ssh_authorizedkeys
+this is checker2
+this is checker
+/usr/bin/sss_ssh_knownhostsproxy
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/start-pulseaudio-x11
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/strace-log-merge
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/struct2osd.sh
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/subscription-manager
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/system-config-abrt
+this is checker2
+this is checker
+/usr/bin/system-config-printer
+this is checker2
+this is checker
+/usr/bin/system-config-printer-applet
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/systemd-analyze
+this is checker2
+this is checker
+/usr/bin/systemd-ask-password
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/systemd-coredumpctl
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/systemd-detect-virt
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/systemd-firstboot
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/systemd-inhibit
+this is checker2
+this is checker
+/usr/bin/systemd-loginctl
+this is checker2
+this is checker
+/usr/bin/systemd-machine-id-setup
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/systemd-stdio-bridge
+this is checker2
+this is checker
+/usr/bin/systemd-sysv-convert
+this is checker2
+this is checker
+/usr/bin/systemd-tmpfiles
+this is checker2
+this is checker
+/usr/bin/systemd-tty-ask-password-agent
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/t4ht
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/tclsh8.5
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/tex4ht
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/texconfig-dialog
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/texi2any
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/theora_dump_video
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/thresholder.pyc
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/totem-video-thumbnailer
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/tracepath6
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/traceroute6
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ucs2any
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/uic3
+this is checker2
+this is checker
+/usr/bin/uic-qt4
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/ulockmgr_server
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/unix2dos
+this is checker2
+this is checker
+/usr/bin/unix2mac
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/unlz4
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/unpack200
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/update-ca-trust
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/update-desktop-database
+this is checker2
+this is checker
+/usr/bin/update-gtk-immodules
+this is checker2
+this is checker
+/usr/bin/update-mime-database
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/usx2yloader
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/valgrind-di-server
+this is checker2
+this is checker
+/usr/bin/valgrind-listener
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/verify_blkparse
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/wall.README.seasnet
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/wayland-scanner
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/WebKitWebDriver
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/winpopup-install
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/wish8.5
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/wmf2eps
+this is checker2
+this is checker
+/usr/bin/wmf2fig
+this is checker2
+this is checker
+/usr/bin/wmf2gd
+this is checker2
+this is checker
+/usr/bin/wmf2svg
+this is checker2
+this is checker
+/usr/bin/wmf2x
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/wordlist2hunspell
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/x11perf
+this is checker2
+this is checker
+/usr/bin/x11perfcomp
+this is checker2
+this is checker
+/usr/bin/x86_64
+this is checker2
+this is checker
+/usr/bin/x86_64-redhat-linux-c++
+this is checker2
+this is checker
+/usr/bin/x86_64-redhat-linux-g++
+this is checker2
+this is checker
+/usr/bin/x86_64-redhat-linux-gcc
+this is checker2
+this is checker
+/usr/bin/x86_energy_perf_policy
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xdg-desktop-icon
+this is checker2
+this is checker
+/usr/bin/xdg-desktop-menu
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xdg-icon-resource
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xdg-screensaver
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xdg-user-dirs-update
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xerces-j2-constants
+this is checker2
+this is checker
+/usr/bin/xerces-j2-version
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xml2-config
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xmlpatternsvalidator
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/xorg-x11-fonts-update-dirs
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/yum-config-manager
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/yum-debug-restore
+this is checker2
+this is checker
+this is checker2
+this is checker
+/usr/bin/yum-groups-manager
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2
+this is checker
+this is checker2

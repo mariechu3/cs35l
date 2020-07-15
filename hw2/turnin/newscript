@@ -1,0 +1,26 @@
+#! /bin/sh
+if [ $# -eq 0 ]; then #if no arguments are passed in
+        dir=`pwd`
+        cd $dir
+        file=`ls`
+        given="t"
+         for i in $file
+         do
+               checker=`echo $dir"/"$i | tr [A-Z] [a-z]`
+		check1=`echo $dot"/"$i | tr [A-Z] [a-z] | sort`
+		echo $check1 + " 5  "
+                foundmatch="f"
+                for value in $match
+                do
+                if [[ $checker == $dir"/"$value ]]; then
+                foundmatch="t"
+                break
+                fi
+                done
+                if [ $foundmatch == "f" ]; then
+#                    checkrest "$i"i
+			dosomething=1
+                fi
+         done
+fi
+

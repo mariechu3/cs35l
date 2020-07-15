@@ -1,0 +1,125 @@
+1. I got the version of coreutils that has the bug in the ls program using 
+wget http://web.cs.ucla.edu/classes/spring19/cs35L/assign/coreutils-with-bug.tar.gz 
+Then I unzipped this file using 
+tar -xf coreutils-with-bug.tar.gz
+
+2. I then went into the coreutils-with-bug directory and configured and built using
+./configure
+make
+
+3.However, there were errors such as:
+In file included from utimecmp.c:41:
+utimens.h:2:5: error: conflicting types for 'futimens'
+ int futimens (int, char const *, struct timespec const [2]);
+     ^~~~~~~~
+In file included from utimecmp.h:25,
+                 from utimecmp.c:25:
+/usr/include/sys/stat.h:373:12: note: previous declaration of 'futimens' was here
+when I tried to build the old version of coreutils as-is and I had to create a patch file and patch the coreutils using 
+the patch file provided on the website.
+vim patch_file
+patch -p0 < patch_file 
+The renaming patch fixed the problem because now it patched the conflicting names.
+
+4.After patching I went into the src directory of the coreutils and verified that an executable ls exsisted. 
+Then I followed the shell commands 
+$ tmp=$(mktemp -d)
+$ cd $tmp
+$ touch -d '1918-11-11 11:00 GMT' wwi-armistice-cs35L
+$ touch now
+$ sleep 1
+$ touch now1
+$ TZ=UTC0 ls -lt --full-time wwi-armistice-cs35L now now1
+(replacing ls with the path to the ls in coreutils's src directory /u/cs/ugrad/molly/lab/coreutils-with-bug/src/ls) 
+And got the desired output of:
+-rw-r--r-- 1 molly csugrad 0 2054-12-17 17:28:16.000000000 +0000 wwi-armistice-c
+-rw-r--r-- 1 molly csugrad 0 2019-04-26 20:54:30.471519000 +0000 now1
+-rw-r--r-- 1 molly csugrad 0 2019-04-26 20:54:21.629699000 +0000 now
+$ cd
+$ rm -fr $tmp 
+
+5. I ran the debugger on the ls with the bug and listed out all the functions. 
+After I listed out the functions I looked at the functions listed under File ls.c. 
+By looking at the function declarations, I decided that the function static void sort_files(void); 
+seemed to be a possible choice for the bug to have occurred as there was an error with sorting the files, 
+since the oldest file was listed first when it was supposed to be listed last. Thus I set a break point there.
+commands used:
+gdb /u/cs/ugrad/molly/lab/coreutils-with-bug/src/ls
+info functions
+b sort_files
+
+6. As I'm stepping through the code I see a line that looks like it may be what is leading to the bug.
+func = sort_reverse ? rev_cmp_mtime : compare_mtime
+So I decided to set a breakpoint at compare_mtime as well
+commands used:
+r -lt --full-tinme wwi-armistice-35l now now1
+n (to go to the next line executed)
+list (see surround c code from the particular line I am at)
+b compare_mtime
+
+7. I see the following line 
+static int compare_mtime (V a, V b) { return cmp_mtime (a, b, xstrcoll)};
+and stepped into it
+after list cmp_mtime I saw that it called timespec:
+int diff = timespec_cmp (get_stat_mtime (&b->stat),
+I used thhe gdb command ptype a and saw that a contained variables called name and stat
+I tried to print the value out but it was optimized out so I had to restart and configure
+and make without optimization. 
+./configure CFLAGS='-g -O0'
+make CFLAGES ='-g -O0'
+Now:
+print a.name showed me a was now 
+print b.name showed me b was now1
+so I kept running until
+print a.name showed me a was wwi-armistice-cs35L 
+print b.name was now1
+and
+(gdb) print a.stat
+$12 = {st_dev = 2054, st_ino = 391846, st_nlink = 1, st_mode = 33188,
+  st_uid = 13607, st_gid = 130, __pad0 = 0, st_rdev = 0, st_size = 0,
+  st_blksize = 4096, st_blocks = 0, st_atim = {tv_sec = -1613826000,
+    tv_nsec = 0}, st_mtim = {tv_sec = -1613826000, tv_nsec = 0}, st_ctim = {
+    tv_sec = 1556313117, tv_nsec = 374186149}, __unused = {0, 0, 0}}
+(gdb) print b.stat
+$13 = {st_dev = 2054, st_ino = 391848, st_nlink = 1, st_mode = 33188,
+  st_uid = 13607, st_gid = 130, __pad0 = 0, st_rdev = 0, st_size = 0,
+  st_blksize = 4096, st_blocks = 0, st_atim = {tv_sec = 1556313127,
+    tv_nsec = 744536805}, st_mtim = {tv_sec = 1556313127,
+    tv_nsec = 744536805}, st_ctim = {tv_sec = 1556313127,
+    tv_nsec = 744536805}, __unused = {0, 0, 0}}
+I tried to see what values are different and see what is passed into timespec_cmp
+/* Return negative, zero, positive if A < B, A == B, A > B, respectively.
+44         Assume the nanosecond components are in range, or close to it.  */
+static inline int
+46      timespec_cmp (struct timespec a, struct timespec b)
+47      {
+48        int diff = a.tv_sec - b.tv_sec;
+49        return diff ? diff : a.tv_nsec - b.tv_nsec;
+50      }
+after stepping into the timespec_cmp I find out a.tv_sec = 1556313127 which correstpons to now1 
+and b.tv_sec = -1613826000 which corresponds to wwi-armistice-cs35L
+print diff yielded me
+$16 = -1124828169
+which is obviously an incorrect number because (1556313127)-(-1613826000) =/= -1124828169. 
+What probably happened was overflow since the largest value that can be represented with a 4 byte int 
+is 2^31 -1 which caused the value to overflow into the "negative" portion of the integer. 
+To fix this we can just take out the int diff = a.tv_sec -b.tv_sec; 
+and replace it with a comparision of the two tv_sec to get the results where it returns negative, 
+zero, positive if A<B, A==B, A>B, respectively.
+
+8. I then exited gdb and found timespec.h in the coreutils lib directory. 
+Making a copy
+cp lib/timespec.h timespec.h
+I made the alterations and created a patch file
+diff -u lib/timespec.h timespec.h >lab4.diff
+then I added the changelog to lab4.diff using emacs
+emacs lab4.diff
+C-x 4-a
+And provided a description of my changes. 
+Then I patched the file and verified that the version no longer put wwi-armistice-cs35L on the top.
+
+9. I tried to reproduce the problem in my home directory on the SEASnet Linux servers but the 1918 
+entry was changed to "2054". This is due to the fact that the temp directory has signed integers 
+and the seasnet linux servers have unsigned representation so there was overflow that caused the 1918 
+to be displayed incorrectly as the Unix Epoch time starts in the year 1970. Similarly I tried creating 
+a file that had the year of 1969 and 1970 and sure enough the date appeared as 2105 and 1970 as expected.

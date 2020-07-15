@@ -1,0 +1,53 @@
+1. I first checked the version of sort with:
+	sort --version
+   The version I had was 8.31 which is newer than 8.6.
+2. I then wrote a bash script to generate the number 4*pow(2,24) with: 
+   num=`dc -e "2 24 ^ p"` and size=`expr $num \* 4` 
+   and output the correct format with:
+   od -t fF -N$size -w4 -An |sed "s/ //g"
+   The -An flag supresses the column with the addresses, the -w4
+   limited each output line to 4 bytes. the -t fF outputted the results
+   as a single precision floating point. Then I did
+   cat /dev/urandom | ./bash > file.txt
+   I got similar results when I did
+   cat /dev/urandom |od -t fF -N67108864 -w4 -An |sed "s/ //g"
+3. I then time how long it takes to sort the numbers using:
+   time -p sort -g file.txt > /dev/null
+   where -p uses the precise traditional format "real %f\nuser %f\nsys %f\n"
+   (with numbers in seconds) where the number of decimals in the output for 
+   %f is unspecified but is sufficient to express the clock tick accuracy, and
+   at least one and -g compares according to general numerical value.
+   I get the result of: 
+	real 37.30
+	user 207.29
+	sys 0.91
+4. I then invoke sort with the --parallel option as well as the -g option by 
+   determining how to use the --parallel option. I run the command
+   sort --help | grep "parallel" and find the line "--parallel=N change the
+   number of sorts run concurrently to N".
+   I test with 1, 2, 4, and 8 threads.
+   1 thread:
+   time -p sort -g --parallel=1 file.txt > /dev/null
+	real 180.51
+	user 180.18
+	sys 0.31
+   2 thread:
+   time -p sort -g --parallel=2 file.txt > /dev/null
+	real 98.53
+        user 188.17
+	sys 0.40
+   4 threads: 
+   time -p sort -g --parallel=4 file.txt > /dev/null
+	real 56.46
+	user 191.82
+	sys 0.67
+   8 threads:
+   time -p sort -g --parallel=8 file.txt > /dev/null
+	real 39.96
+	user 226.59
+	sys 0.91
+It was pretty cool to see that at one point I decided to open up another
+terminal and started the process for 2 threads before 4 threads, yet the 
+4 thread process finished first. I also noticed that the real time was
+almost halved with each successive increase in number of threads, but the 
+user and sys time increased with each one.

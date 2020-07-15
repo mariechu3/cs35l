@@ -1,0 +1,114 @@
+1. What shell command uses the man program to print all the commands that have a specific word in their man page (or at least the description part of the man page)? (hint: man man)
+
+man -k
+
+2. Where are the mv and sh programs located in the file system? List any shell commands you used to answer this question.
+
+mv is located in: /usr/local/cs/bin/mv
+sh is located in: /usr/bin/sh
+using shell command: which mv sh
+				  
+3. What executable programs have names that are exactly two characters long and end in r, and what do they do? List any shell commands you used to answer this question.
+
+pr-converts text files for printing
+tr- translates or deletes characters
+using shell command: man find
+find /usr/local/cs/bin -executable -name "?r"
+man pr
+man tr
+
+4. When you execute the command named by the symbolic link /usr/bin/emacs, which file actually is executed? List any shell commands you used to answer this question.
+
+/usr/bin/emacs-24.3 is being executed
+using shell commands: ls -l /usr/bin/emacs
+					  ls -l /etc/alternatives/emacs
+					  ls -l /usr/bin/emacs-24.3
+
+5. What is the version number of the /usr/bin/gcc program? of the plain gcc program? Why are they different programs?
+
+/usr/bin/gcc version number is: 4.8.5
+plain gcc version number is: 8.3.0 
+The plain gcc is located in /usr/local/cs/bin which is the first found gcc in the PATH (since we had to prepend it in the beginning) Thus, this is different from the gcc found in /usr/bin
+using shell commands: /usr/bin/gcc --version	
+                      gcc--version
+
+6. The chmod program changes permissions on a file. What does the symbolic mode u+sx,o-w mean, in terms of permissions?
+ 
+u+sx causes selected file mode bits for user's setting user or group ID on execution and execution to be added (allows permission for those)
+o-w causes the selected file mode bits of other users not in the file group for writing to be removed (takes away permission)
+using shell command: man chmod
+
+7. Use the find command to find all directories modified in the last four weeks that are located under (or are the same as) the directory /usr/local/cs. List any shell commands you used to answer this question.
+
+/usr/local/cs
+/usr/local/cs/src/coreutils
+/usr/local/cs/src/coreutils/RCS
+/usr/local/cs/share/info
+/usr/local/cs/share/man/man1
+....
+there is a total of 144 directories 
+using shell commands: man find
+man wc
+find /usr/local/cs -mtime -28 -type d
+find /usr/local/cs -mtime -28 -type d | wc
+
+8. Of the files in the same directory as find, how many of them are symbolic links? 
+List any shell commands you used to answer this question.
+
+280 are symbolic links in (/usr/bin) where find is located
+using shell commands: man find 
+					  which find (find is in /usr/bin)
+					  find /usr/bin -type -l | wc
+					 
+
+9. What is the oldest regular file in the /usr/lib64 directory? Use the last-modified time to determine age. Specify the name of the file without the /usr/lib64/ prefix. Consider files whose names start with ".". List any shell commands you used to answer 
+this question.
+
+librom1394.so.0.3.0 
+using shell commands: ls -lat /usr/lib64
+					  man stat
+					  stat /usr/lib64/librom1394.so.0.3.0 (checking that its a regular file)
+
+10. Where does the locale command get its data from? List any shell commands you used to answer this question.
+
+locale command displays the current locale settings for each locale category, based on the settings of the environment variables that control the locale
+using shell command: man locale
+
+11. In Emacs, what commands have downcase in their name? List any Emacs commands you used to answer this question.
+
+downcase-dwim
+downcase-region
+downcase-word
+
+Emacs commands: C-h a d o w n c a s e Enter
+
+
+12. Briefly, what do the Emacs keystrokes C-M-r through C-M-v do? Can you list their actions concisely? List any Emacs commands you used to answer this question.
+The emacs keystoke:
+C-M-r does an incremental reverse search for regular expressions
+C-M-s does an incremental search forward for regular expressions
+C-M-t transposes symbolic expressions around a point
+C-M-u move backwards out of one level of parentheses
+C-M-v scroll next window upward ARG amount of lines, or near full screen if no ARG
+
+Used Emacs command: C-h b C-x o C-s C - M - r C-s 
+					then C-h f for isearch-backward-regexp, isearch-forward-regex, transpose-sexps, backward-up-list, scroll-other-window 
+
+13. In more detail, what does the Emacs keystroke C-g do? List any Emacs commands you used to answer this question.
+
+C-g runs the command keyboard-quit. During execution of Lisp code, this character causes a quit directly. At top-level, as an editor command, this simply beeps
+Used Emacs command: C-h k C-g
+
+14. What does the Emacs yank function do, and how can you easily invoke it using keystrokes? List any Emacs commands you used to answer this question.
+
+The Emacs yank function "pulls out" the characters in the "kill ring" that are stored there by the last Emacs kill command. 
+"Yanking" means reinserting text previously killed (paste)
+easily invoked with keystokes: C-y
+C-h f y a n k Enter
+
+15. When looking at the directory /usr/bin, what's the difference between the output of the ls -l command, and the directory listing of the Emacs dired command? List any shell or Emacs commands you used to answer this question.
+With the emacs dired command, it shows the total used in directory is 324644 available 12716020
+With the shell command it shows total 324560
+Emacs commmand: C-x d / u s r / b i n
+Shell command: ls -l /usr/bin
+They also show the symbolic links/executable files/etc in different colors

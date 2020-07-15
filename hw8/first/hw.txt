@@ -1,0 +1,6 @@
+1. The result is still secure because the bytes are encoded 
+2. This only verifies that the key was the one that signed the file
+   but does not guarantee who actuall signed the file. To fix this problem
+   I would have to have some way that verifies that this key I created
+   is associated with my identity. After the person in question verifies 
+   that that is my key, they would be able to know that I signed the file.

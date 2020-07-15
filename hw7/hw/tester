@@ -1,0 +1,75 @@
+execve("./randmain", ["./randmain", "64"], [/* 34 vars */]) = 0
+brk(NULL)                               = 0x1acb000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe604f65000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/u/cs/ugrad/molly/cs35l/hw7/hw/tls/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/u/cs/ugrad/molly/cs35l/hw7/hw/tls/x86_64", 0x7ffe3930e0d0) = -1 ENOENT (No such file or directory)
+open("/u/cs/ugrad/molly/cs35l/hw7/hw/tls/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/u/cs/ugrad/molly/cs35l/hw7/hw/tls", 0x7ffe3930e0d0) = -1 ENOENT (No such file or directory)
+open("/u/cs/ugrad/molly/cs35l/hw7/hw/x86_64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/u/cs/ugrad/molly/cs35l/hw7/hw/x86_64", 0x7ffe3930e0d0) = -1 ENOENT (No such file or directory)
+open("/u/cs/ugrad/molly/cs35l/hw7/hw/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/u/cs/ugrad/molly/cs35l/hw7/hw", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=160044, ...}) = 0
+mmap(NULL, 160044, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe604f3d000
+close(3)                                = 0
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=19288, ...}) = 0
+mmap(NULL, 2109712, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe604b41000
+mprotect(0x7fe604b43000, 2097152, PROT_NONE) = 0
+mmap(0x7fe604d43000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe604d43000
+close(3)                                = 0
+open("/u/cs/ugrad/molly/cs35l/hw7/hw/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340$\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2151672, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe604f3c000
+mmap(NULL, 3981792, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe604774000
+mprotect(0x7fe604936000, 2097152, PROT_NONE) = 0
+mmap(0x7fe604b36000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c2000) = 0x7fe604b36000
+mmap(0x7fe604b3c000, 16864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe604b3c000
+close(3)                                = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe604f3a000
+arch_prctl(ARCH_SET_FS, 0x7fe604f3a740) = 0
+mprotect(0x7fe604b36000, 16384, PROT_READ) = 0
+mprotect(0x7fe604d43000, 4096, PROT_READ) = 0
+mprotect(0x600000, 4096, PROT_READ)     = 0
+mprotect(0x7fe604f66000, 4096, PROT_READ) = 0
+munmap(0x7fe604f3d000, 160044)          = 0
+brk(NULL)                               = 0x1acb000
+brk(0x1aec000)                          = 0x1aec000
+brk(NULL)                               = 0x1aec000
+open("./randlibsw.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\6\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=44976, ...}) = 0
+getcwd("/w/home.23/cs/ugrad/molly/cs35l/hw7/hw", 128) = 39
+mmap(NULL, 2101328, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe604572000
+mprotect(0x7fe604573000, 2093056, PROT_NONE) = 0
+mmap(0x7fe604772000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0) = 0x7fe604772000
+close(3)                                = 0
+mprotect(0x7fe604772000, 4096, PROT_READ) = 0
+open("/dev/urandom", O_RDONLY)          = 3
+fstat(3, {st_mode=S_IFCHR|0666, st_rdev=makedev(1, 9), ...}) = 0
+ioctl(3, TCGETS, 0x7ffe3930f6f0)        = -1 EINVAL (Invalid argument)
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe604f64000
+read(3, "^\313}\"\251\213M\256\330\307\270\203_C\274s\376L)\362\371&x\225\252\331\273C\253-\37 "..., 4096) = 4096
+fstat(1, {st_mode=S_IFREG|0644, st_size=4161, ...}) = 0
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe604f62000
+write(1, "e5bcd7229ab8d4ea\n8d7c8b38f534cb3"..., 136e5bcd7229ab8d4ea
+8d7c8b38f534cb37
+efc4922f9f628759
+aa9dbb34bad2f102
+dc207605690e6cf1
+d53677cd655cc6f3
+4c6448dfd860558d
+51de9b73c064885f
+) = 136
+close(1)                                = 0
+munmap(0x7fe604f62000, 8192)            = 0
+close(3)                                = 0
+munmap(0x7fe604f64000, 4096)            = 0
+munmap(0x7fe604572000, 2101328)         = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
